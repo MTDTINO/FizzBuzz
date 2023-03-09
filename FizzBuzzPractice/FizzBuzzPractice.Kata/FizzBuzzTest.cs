@@ -12,8 +12,10 @@ namespace FizzBuzzPractice.Kata
         }
 
         [Fact]
-        public void ShouldReturnBuzzWhenDivisibleBy5() { 
-        
+        public void ShouldReturnBuzzWhenDivisibleBy5() {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var Buzz = fizzBuzz.Buzz(5);
+            Assert.Equal("Buzz",Buzz);
         }
     }
 }
