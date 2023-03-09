@@ -3,7 +3,10 @@
     public class FizzBuzz
     {
         public string FBuzz(int number) {
-            throw new NotImplementedException();
+            var numdivisibleby3 = number % 3;
+
+            if (numdivisibleby3 == 0) return "Fizz";
+            return number.ToString();
         }
     }
 }

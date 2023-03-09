@@ -6,7 +6,7 @@ namespace FizzBuzzPractice.Kata
         public void Test1()
         {
             FizzBuzz fizzBuzz = new FizzBuzz();
-            var Fizz = fizzBuzz.FBuzz(5);
+            var Fizz = fizzBuzz.FBuzz(3);
 
             Assert.Equal("Fizz",Fizz);
         }
