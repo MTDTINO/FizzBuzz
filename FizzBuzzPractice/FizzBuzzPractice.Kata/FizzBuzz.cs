@@ -14,5 +14,9 @@
             if (numdivisibleby5 == 0) return "Buzz";
             return number.ToString();
         }
+
+        public string FBuzz(int number) {
+        throw new NotImplementedException();
+        }
     }
 }
