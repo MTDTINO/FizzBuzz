@@ -16,7 +16,11 @@
         }
 
         public string FBuzz(int number) {
-        throw new NotImplementedException();
+            var numdivisibleby3 = number % 3;
+            var numdivisibleby5 = number % 5;
+
+            if (numdivisibleby3 == 0 && numdivisibleby5 == 0) return "FizzBuzz";
+            return number.ToString();
         }
     }
 }
