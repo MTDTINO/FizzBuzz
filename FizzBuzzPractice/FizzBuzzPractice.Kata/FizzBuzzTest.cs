@@ -20,7 +20,7 @@ namespace FizzBuzzPractice.Kata
         [Fact]
         public void ShouldReturnFizzBuzzWhenDivisibleBy3and5() {
             FizzBuzz fizzBuzz = new FizzBuzz();
-            var FizzBuzz = fizzBuzz.FBuzz(15);
+            var FizzBuzz = fizzBuzz.FBuzz(60);
             Assert.Equal("FizzBuzz",FizzBuzz);
         }
     }
