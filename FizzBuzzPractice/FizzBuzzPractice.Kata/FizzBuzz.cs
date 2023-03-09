@@ -1,6 +1,9 @@
 ﻿namespace FizzBuzzPractice.Kata
 {
-    internal class FizzBuzz
+    public class FizzBuzz
     {
+        public string FBuzz(int number) {
+            throw new NotImplementedException();
+        }
     }
 }
