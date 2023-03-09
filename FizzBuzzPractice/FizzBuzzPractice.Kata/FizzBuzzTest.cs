@@ -6,21 +6,21 @@ namespace FizzBuzzPractice.Kata
         public void ShouldReturnFizzWhenDivisibleBy3()
         {
             FizzBuzz fizzBuzz = new FizzBuzz();
-            var Fizz = fizzBuzz.Fizz(3);
+            var Fizz = fizzBuzz.FBuzz(3);
             Assert.Equal("Fizz",Fizz);
         }
 
         [Fact]
         public void ShouldReturnBuzzWhenDivisibleBy5() {
             FizzBuzz fizzBuzz = new FizzBuzz();
-            var Buzz = fizzBuzz.Buzz(5);
+            var Buzz = fizzBuzz.FBuzz(5);
             Assert.Equal("Buzz",Buzz);
         }
 
         [Fact]
         public void ShouldReturnFizzBuzzWhenDivisibleBy3and5() {
             FizzBuzz fizzBuzz = new FizzBuzz();
-            var FizzBuzz = fizzBuzz.FBuzz(15);
+            var FizzBuzz = fizzBuzz.FBuzz(60);
             Assert.Equal("FizzBuzz",FizzBuzz);
         }
     }
