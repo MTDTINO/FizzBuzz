@@ -7,7 +7,6 @@ namespace FizzBuzzPractice.Kata
         {
             FizzBuzz fizzBuzz = new FizzBuzz();
             var Fizz = fizzBuzz.Fizz(3);
-
             Assert.Equal("Fizz",Fizz);
         }
 
@@ -16,6 +15,13 @@ namespace FizzBuzzPractice.Kata
             FizzBuzz fizzBuzz = new FizzBuzz();
             var Buzz = fizzBuzz.Buzz(5);
             Assert.Equal("Buzz",Buzz);
+        }
+
+        [Fact]
+        public void ShouldReturnFizzBuzzWhenDivisibleBy3and5() {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var FizzBuzz = fizzBuzz.FBuzz(15);
+            Assert.Equal("FizzBuzz",FizzBuzz);
         }
     }
 }
