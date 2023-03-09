@@ -9,8 +9,10 @@
             return number.ToString();
         }
 
-        public string Buzz(int number) { 
-           throw new NotImplementedException();
+        public string Buzz(int number) {
+            var numdivisibleby5 = number % 5;
+            if (numdivisibleby5 == 0) return "Buzz";
+            return number.ToString();
         }
     }
 }
